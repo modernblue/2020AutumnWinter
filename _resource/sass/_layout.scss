@@ -31,7 +31,7 @@ layout style
 			margin: 12px 0 0 0;
 			input {
 				padding: 0 0 0 10px;
-				border: solid 2px $btn-color;
+				border: solid 2px $base-color;
 				height: 34px;
 				border-radius: 17px;
 				box-sizing: border-box;
@@ -47,7 +47,7 @@ layout style
 				border-style: none;
 				cursor: pointer;
 				i {
-					color: $btn-color;
+					color: $base-color;
 				}
 			}
 		}
@@ -132,8 +132,8 @@ layout style
 						margin: 0 0 20px;
 						color: #fff;
 						text-shadow: 1px 1px 3px #333;
-						font-size: 80px;
-						font-family: "FuturaMi";
+						font-size: 90px;
+						font-family: "FuturaConLig";
 					}
 				}
 				.headline__txt {

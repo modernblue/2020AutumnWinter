@@ -168,7 +168,7 @@ $('.onSearch').on('click', function(e){
 // console.log(shop);
 
 	if (shop == "mb") {
-		var unicodeText = '20年春夏 ' + $(this).siblings().val();
+		var unicodeText = '20年秋冬 ' + $(this).siblings().val();
 		var unicodeArray = str2Array(unicodeText);
 		function str2Array(str) {
 			var array = [], i, il = str.length;
@@ -181,7 +181,7 @@ $('.onSearch').on('click', function(e){
 		var sjisArray = Encoding.convert(unicodeArray, 'SJIS', 'UNICODE');
 		var search_wd = Encoding.urlEncode(sjisArray);
 	} else {
-		var search_wd = encodeURIComponent('2020年春夏新作 ' + $(this).siblings().val());
+		var search_wd = encodeURIComponent('2020年秋冬新作 ' + $(this).siblings().val());
 	}
 
 	if (shop == "mb") {
