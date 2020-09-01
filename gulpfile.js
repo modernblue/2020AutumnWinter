@@ -24,9 +24,9 @@ gulp.task('webserver', function(){
 // htmlmin
 gulp.task('htmlmin'/*, ["htmlhint"]*/, function() {
 	gulp.src('_resource/**/*.html')
-		.pipe(htmlmin({
-			collapseWhitespace: true
-		}))
+		// .pipe(htmlmin({
+		// 	collapseWhitespace: true
+		// }))
 		.pipe(gulp.dest('./'));
 });
 
@@ -67,7 +67,7 @@ gulp.task('cssmin', ['compass'], function(){
 			browsers: ['last 2 versions'],
 			cascade: false
 		}))
-		.pipe(cssmin())
+		//.pipe(cssmin())
 		.pipe(gulp.dest('assets/css'));
 });
 
