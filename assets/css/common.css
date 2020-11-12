@@ -438,7 +438,7 @@ layout style
   position: absolute;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  top: 65%;
+  top: 45%;
   left: 50%;
   width: 100%;
   text-align: center;
@@ -455,7 +455,6 @@ layout style
   font-family: "FuturaConLig";
 }
 .main .main__headline.headline .headline__mv .headline__txt {
-  display: none;
   position: absolute;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -1284,7 +1283,7 @@ layout style
     margin: 0 0 50px;
   }
   .main .main__headline.headline .headline__mv .headline__ttl {
-    top: 85%;
+    top: 45%;
     font-size: 12px;
   }
   .main .main__headline.headline .headline__mv .headline__ttl--langEn {

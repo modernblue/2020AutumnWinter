@@ -118,8 +118,8 @@ layout style
 				.headline__ttl {
 					position: absolute;
 					transform: translateX(-50%);
-					top: 65%;
-					// top: 38%;
+					//top: 65%;
+					 top: 45%;
 					// top: 33%;
 					// top: 28%;
 					left: 50%;
@@ -138,7 +138,7 @@ layout style
 					}
 				}
 				.headline__txt {
-					display: none;
+					//display: none;
 					position: absolute;
 					transform: translateX(-50%);
 					top: 78%;
@@ -963,8 +963,9 @@ layout style
 				.headline__bg {
 				}
 				.headline__ttl {
-					// top: 35%;
-					top: 85%;
+					top: 45%;
+					//top: 35%;
+					// top: 85%;
 					font-size: 12px;
 					&--langEn {
 						margin: 0 0 10px;
